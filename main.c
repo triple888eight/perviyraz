@@ -2,5 +2,7 @@
 
 int main()
 {
-
+    int a, b;
+    printf("Enter two integer numbers:");
+    scanf("%d %d", a, b)
 }
