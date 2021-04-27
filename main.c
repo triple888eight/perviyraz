@@ -1,14 +1,10 @@
 #include <stdio.h>
-
 // Программа является учебной
-
 int main()
 {
-    int a, b, c, m;
+    int a, b;
     printf("Enter two integer numbers:");
     scanf("%d %d", a, b);
-    c=a+b;
-    m=a-b;
-    printf("a+b=%d\na-b=%d", c, m);
+    printf("a+b=%d\na-b=%d", a+b, a-b);
     return 0;
 }
